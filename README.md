@@ -4,7 +4,7 @@ In this repository I explore the Sign Language MNIST data set. This dataset cons
 
 Here, I build two convolutional neural networks with different architectures to correctly classify pictures of the alphabet in sign language. We have 26 different classes since there are 26 different letters in the alphabet.
 
-A convolutional neural network is a specical type of neural networks for image classification. Using the pixels as the input data, the main difference between convolutional neural networks and tradional ones is the convolution layer. The convolution layer is used for feature dectection epsically edge detection. 
+A convolutional neural network is a specical type of neural network for image classification. Using each image's pixels as the input data, the main difference between convolutional neural networks and tradional ones is the convolution layer. The convolution layer is used for feature dectection epsically in edge detection, such as the outline of a hand in each photo in this dataset. 
 
 Here this CNN is built in python and based on the tensorflow framework using Keras. 
 
